@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "121386950152",
+    "firebase_url": "https://localizeapp-1555259464783.firebaseio.com",
+    "project_id": "localizeapp-1555259464783",
+    "storage_bucket": "localizeapp-1555259464783.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121386950152:android:be4c68d8fab44ca7",
+        "android_client_info": {
+          "package_name": "com.example.localizeapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121386950152-qin14i9b0uufjcsosdj8kglvl481u1in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzdq6-w-cqoWMOXlcjDyZunpLzH3N9eOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121386950152-qin14i9b0uufjcsosdj8kglvl481u1in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTagText"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.localizeapp2.InterestsActivity">
+
+    <TextView
+        android:id="@+id/textInterested"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="Tell us what you're interested in today..."
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Tour"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnBusiness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Business"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="21+"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHappyHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#@color/colorTag"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Happy Hour"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="18+"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Big"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnConcert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Concert"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Day"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNetworking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Networking"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Night"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBrunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Brunch"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnInformative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Informative"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCoffee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Coffee"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnPoetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Poetry"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnJazz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Jazz"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Rock"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnHipHop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Hip-Hop"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnProfessional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Professional"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnFree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTags"
+            android:padding="5dp"
+            android:layout_margin="8dp"
+            android:text="Free"
+            android:textColor="@color/colorTagText"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</LinearLayout>

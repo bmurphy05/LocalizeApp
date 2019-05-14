@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">LocalizeApp</string>
+
+    <!-- Search -->
+    <string name="explore_title">EXPLORE</string>
+    <string name="feed_title">FEED</string>
+    <string name="events_title">MY EVENTS</string>
+    <string name="search_title">SEARCH</string>
+    <string name="profile_title">PROFILE</string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+
+    <!-- Calendar -->
+    <string name="title_activity_calender">CalenderActivity</string>
+    <string name="title_home">My Calender</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="calender_button">Create an Event</string>
+    <string name="search_home">Search</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_search_">SearchActivity</string>
+
+    <!-- Profile -->
+    <string name="name">Name</string>
+    <string name="location">new york, usa</string>
+    <string name="numOfFollowers">555</string>
+    <string name="numFollowing">873</string>
+    <string name="numEvents">873</string>
+    <string name="username">Username</string>
+    <string name="bio">Bio</string>
+    <string name="email">email@email.com</string>
+    <string name="phoneNum">555-555-5555</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.localizeapp2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/logo2" />
+
+        <EditText
+            android:id="@+id/fieldUsername"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColorHint="#7CA3FF"
+            android:textSize="18sp"
+            android:autofillHints=""
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:id="@+id/fieldPassword"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColorHint="#7CA3FF"
+            android:textSize="18sp"
+            android:autofillHints=""
+            android:paddingStart="10dp" />
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="#7CA3FF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="FORGOT PASSWORD"
+            android:textColor="#8FB1FE"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonToSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="SIGN UP"
+            android:textColor="#ABC5FF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/or_continue_as"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR CONTINUE AS"
+            android:textColor="#8FB1FE"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/guest"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="GUEST"
+            android:textColor="#ABC5FF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
